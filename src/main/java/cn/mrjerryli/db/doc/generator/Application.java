@@ -1,10 +1,9 @@
-package cn.wuwenyao.db.doc.generator;
+package cn.mrjerryli.db.doc.generator;
 
+import cn.mrjerryli.db.doc.generator.config.ApplicationConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-
-import cn.wuwenyao.db.doc.generator.config.ApplicationConfig;
 
 /***
  * 应用启动

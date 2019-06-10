@@ -1,12 +1,12 @@
-package cn.wuwenyao.db.doc.generator.config;
+package cn.mrjerryli.db.doc.generator.config;
 
+import cn.mrjerryli.db.doc.generator.service.GeneratorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import cn.wuwenyao.db.doc.generator.dao.DbInfoDao;
-import cn.wuwenyao.db.doc.generator.service.GeneratorService;
+import cn.mrjerryli.db.doc.generator.dao.DbInfoDao;
 
 /***
  * 生成器配置

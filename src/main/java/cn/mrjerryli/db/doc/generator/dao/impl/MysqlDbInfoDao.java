@@ -1,8 +1,8 @@
-package cn.wuwenyao.db.doc.generator.dao.impl;
+package cn.mrjerryli.db.doc.generator.dao.impl;
 
-import cn.wuwenyao.db.doc.generator.entity.TableFieldInfo;
-import cn.wuwenyao.db.doc.generator.entity.TableInfo;
-import cn.wuwenyao.db.doc.generator.entity.TableKeyInfo;
+import cn.mrjerryli.db.doc.generator.entity.TableFieldInfo;
+import cn.mrjerryli.db.doc.generator.entity.TableInfo;
+import cn.mrjerryli.db.doc.generator.entity.TableKeyInfo;
 import org.apache.commons.collections4.CollectionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

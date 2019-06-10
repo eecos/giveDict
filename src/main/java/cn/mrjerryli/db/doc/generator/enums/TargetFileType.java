@@ -1,8 +1,8 @@
-package cn.wuwenyao.db.doc.generator.enums;
+package cn.mrjerryli.db.doc.generator.enums;
 
-import cn.wuwenyao.db.doc.generator.service.impl.ExcelGeneratorServiceImpl;
-import cn.wuwenyao.db.doc.generator.service.impl.HtmlGeneratorServiceImpl;
-import cn.wuwenyao.db.doc.generator.service.impl.WordGeneratorServiceImpl;
+import cn.mrjerryli.db.doc.generator.service.impl.ExcelGeneratorServiceImpl;
+import cn.mrjerryli.db.doc.generator.service.impl.HtmlGeneratorServiceImpl;
+import cn.mrjerryli.db.doc.generator.service.impl.WordGeneratorServiceImpl;
 
 /***
  * 生成文件类型

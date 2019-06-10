@@ -30,13 +30,13 @@
 ----
     1.在pom.xml加入数据库驱动包
     2.修改application.properties的数据库配置信息
-    3.创建一个新的类，继承cn.wuwenyao.db.doc.generator.dao.impl.AbstractDbInfoDao
-    4.在枚举类cn.wuwenyao.db.doc.generator.enums.DbType增加一个新的枚举
+    3.创建一个新的类，继承cn.mrjerryli.db.doc.generator.dao.impl.AbstractDbInfoDao
+    4.在枚举类cn.mrjerryli.db.doc.generator.enums.DbType增加一个新的枚举
 
 如何扩展已支持更多的生成文档类型
 ----
-	1.创建一个新的类，继承cn.wuwenyao.db.doc.generator.service.impl.AbstractGeneratorServiceImpl
-	2.在枚举类cn.wuwenyao.db.doc.generator.enums.TargetFileType中增加一个新的枚举
+	1.创建一个新的类，继承cn.mrjerryli.db.doc.generator.service.impl.AbstractGeneratorServiceImpl
+	2.在枚举类cn.mrjerryli.db.doc.generator.enums.TargetFileType中增加一个新的枚举
 
 更新日志
 ----

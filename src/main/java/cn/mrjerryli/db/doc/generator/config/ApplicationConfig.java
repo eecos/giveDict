@@ -1,4 +1,4 @@
-package cn.wuwenyao.db.doc.generator.config;
+package cn.mrjerryli.db.doc.generator.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;

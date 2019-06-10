@@ -1,4 +1,4 @@
-package cn.wuwenyao.db.doc.generator.service.impl;
+package cn.mrjerryli.db.doc.generator.service.impl;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -12,8 +12,8 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;
 
-import cn.wuwenyao.db.doc.generator.entity.TableInfo;
-import cn.wuwenyao.db.doc.generator.utils.FreemarkerUtils;
+import cn.mrjerryli.db.doc.generator.entity.TableInfo;
+import cn.mrjerryli.db.doc.generator.utils.FreemarkerUtils;
 import freemarker.template.Template;
 
 /***

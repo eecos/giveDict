@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.2.200:3306/saas
+    url: jdbc:mysql://192.168.2.200:3306/ses
     username: root
     password: '1qaz2wsx'
 application:
@@ -12,7 +12,7 @@ application:
     target-file-type: html
     #target-file-type: word
     #使用的模板文件地址
-    template-file-path: htmlTemplate2.html
+    template-file-path: htmlTemplate.html
     #template-file-path: wordTemplate7.ftl
     #生成文件的目录
     target-file-dir: /Users/jerry/Desktop/doc
@@ -23,6 +23,6 @@ application:
     #whitelist:
     #  - 't_.*'
 doc:
-  name: saas
+  name: ses
 
 

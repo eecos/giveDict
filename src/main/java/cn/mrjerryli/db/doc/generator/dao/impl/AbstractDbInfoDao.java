@@ -1,8 +1,8 @@
-package cn.wuwenyao.db.doc.generator.dao.impl;
+package cn.mrjerryli.db.doc.generator.dao.impl;
 
-import cn.wuwenyao.db.doc.generator.config.ApplicationConfig;
-import cn.wuwenyao.db.doc.generator.dao.DbInfoDao;
-import cn.wuwenyao.db.doc.generator.entity.TableInfo;
+import cn.mrjerryli.db.doc.generator.config.ApplicationConfig;
+import cn.mrjerryli.db.doc.generator.entity.TableInfo;
+import cn.mrjerryli.db.doc.generator.dao.DbInfoDao;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.jdbc.core.JdbcTemplate;
 

@@ -1,7 +1,7 @@
-package cn.wuwenyao.db.doc.generator.config;
+package cn.mrjerryli.db.doc.generator.config;
 
-import cn.wuwenyao.db.doc.generator.enums.DbType;
-import cn.wuwenyao.db.doc.generator.enums.TargetFileType;
+import cn.mrjerryli.db.doc.generator.enums.DbType;
+import cn.mrjerryli.db.doc.generator.enums.TargetFileType;
 
 import java.util.ArrayList;
 import java.util.List;

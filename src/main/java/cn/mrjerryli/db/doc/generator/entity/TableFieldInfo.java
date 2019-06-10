@@ -1,4 +1,4 @@
-package cn.wuwenyao.db.doc.generator.entity;
+package cn.mrjerryli.db.doc.generator.entity;
 
 /***
  * 列信息

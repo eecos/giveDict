@@ -1,8 +1,8 @@
-package cn.wuwenyao.db.doc.generator.service.impl;
+package cn.mrjerryli.db.doc.generator.service.impl;
 
-import cn.wuwenyao.db.doc.generator.config.GeneratorConfig;
-import cn.wuwenyao.db.doc.generator.dao.DbInfoDao;
-import cn.wuwenyao.db.doc.generator.service.GeneratorService;
+import cn.mrjerryli.db.doc.generator.config.GeneratorConfig;
+import cn.mrjerryli.db.doc.generator.dao.DbInfoDao;
+import cn.mrjerryli.db.doc.generator.service.GeneratorService;
 
 /***
  * 文档生成服务-抽象基类

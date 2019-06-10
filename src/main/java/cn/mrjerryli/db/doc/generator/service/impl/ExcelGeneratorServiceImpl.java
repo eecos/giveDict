@@ -1,8 +1,8 @@
-package cn.wuwenyao.db.doc.generator.service.impl;
+package cn.mrjerryli.db.doc.generator.service.impl;
 
-import cn.wuwenyao.db.doc.generator.entity.TableFieldInfo;
-import cn.wuwenyao.db.doc.generator.entity.TableInfo;
-import cn.wuwenyao.db.doc.generator.entity.TableKeyInfo;
+import cn.mrjerryli.db.doc.generator.entity.TableFieldInfo;
+import cn.mrjerryli.db.doc.generator.entity.TableInfo;
+import cn.mrjerryli.db.doc.generator.entity.TableKeyInfo;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.poi.common.usermodel.HyperlinkType;

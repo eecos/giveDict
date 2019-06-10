@@ -1,4 +1,4 @@
-package cn.wuwenyao.db.doc.generator.utils;
+package cn.mrjerryli.db.doc.generator.utils;
 
 import freemarker.cache.StringTemplateLoader;
 import freemarker.template.Configuration;
