@@ -22,5 +22,7 @@ application:
     #白名单，支持正则表达式
     #whitelist:
     #  - 't_.*'
+doc:
+  name: saas
 
 
