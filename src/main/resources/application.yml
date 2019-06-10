@@ -12,7 +12,7 @@ application:
     target-file-type: html
     #target-file-type: word
     #使用的模板文件地址
-    template-file-path: htmlTemplate.html
+    template-file-path: htmlTemplate2.html
     #template-file-path: wordTemplate7.ftl
     #生成文件的目录
     target-file-dir: /Users/jerry/Desktop/doc

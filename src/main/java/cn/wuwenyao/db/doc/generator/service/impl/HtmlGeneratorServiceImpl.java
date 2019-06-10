@@ -46,7 +46,9 @@ public final class HtmlGeneratorServiceImpl extends AbstractGeneratorServiceImpl
 		template.process(map, new FileWriter(file));
 		// 弹出目标文件夹
 		String targetFileDir = generatorConfig.getTargetFileDir();
-		Runtime.getRuntime().exec("explorer "+ generatorConfig.getTargetFileDir());
-	}
+		//Runtime.getRuntime().exec("explorer "+ generatorConfig.getTargetFileDir());
+        Runtime.getRuntime().exec("open "+ generatorConfig.getTargetFileDir());
+
+    }
 	
 }
