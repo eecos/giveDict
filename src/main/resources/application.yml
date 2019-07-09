@@ -1,7 +1,8 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.2.200:3306/ses
+    url: jdbc:mysql://192.168.2.200:3306/operation_test
+    #url: jdbc:mysql://127.0.0.1:3306/repair_test
     username: root
     password: '1qaz2wsx'
 application:
@@ -15,7 +16,7 @@ application:
     template-file-path: htmlTemplate.html
     #template-file-path: wordTemplate7.ftl
     #生成文件的目录
-    target-file-dir: /Users/jerry/Desktop/doc
+    target-file-dir: /Users/jerry/Desktop/RedE_DB/doc
     #黑名单，支持正则表达式
     #blacklist:
     #  - '.*'
@@ -23,6 +24,6 @@ application:
     #whitelist:
     #  - 't_.*'
 doc:
-  name: ses
+  name: operation_test
 
 
