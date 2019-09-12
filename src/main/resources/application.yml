@@ -1,8 +1,10 @@
+doc:
+  name: saas_test
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.2.200:3306/operation_test
-    #url: jdbc:mysql://127.0.0.1:3306/repair_test
+    url: jdbc:mysql://192.168.2.200:3306/${doc.name}
+    #url: jdbc:mysql://127.0.0.1:3306/${doc.name}
     username: root
     password: '1qaz2wsx'
 application:
@@ -13,17 +15,16 @@ application:
     target-file-type: html
     #target-file-type: word
     #使用的模板文件地址
-    template-file-path: htmlTemplate.html
-    #template-file-path: wordTemplate7.ftl
+    template-file-path: htmlTemplate2.html
+    #template-file-path: wordTemplate.ftl
     #生成文件的目录
-    target-file-dir: /Users/jerry/Desktop/RedE_DB/doc
+    target-file-dir: /Users/lijiating/Desktop/RedE_DB/doc
     #黑名单，支持正则表达式
     #blacklist:
     #  - '.*'
     #白名单，支持正则表达式
     #whitelist:
     #  - 't_.*'
-doc:
-  name: operation_test
+
 
 

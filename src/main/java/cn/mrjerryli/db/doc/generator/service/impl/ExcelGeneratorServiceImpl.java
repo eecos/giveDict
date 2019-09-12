@@ -9,6 +9,7 @@ import org.apache.poi.common.usermodel.HyperlinkType;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.*;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -24,6 +25,9 @@ import java.util.Random;
  */
 public final class ExcelGeneratorServiceImpl extends AbstractGeneratorServiceImpl {
 
+    @Value("${doc.name}")
+    private String docName;
+
     @Override
     public void generateDbDoc() throws Exception {
         String databaseName = dbInfoDao.databaseName();
@@ -32,7 +36,8 @@ public final class ExcelGeneratorServiceImpl extends AbstractGeneratorServiceImp
         File dir = new File(generatorConfig.getTargetFileDir());
         FileUtils.forceMkdir(dir);
         Random random = new Random();
-        String filename = databaseName + "_" + DateFormatUtils.format(new Date(), "yyyy-MM-dd_HH-mm-ss") + random.nextInt(10) + ".xls";
+        String filename =docName + "(v" + random.nextInt(10) + ").xls";
+
         File file = new File(dir, filename);
 
         HSSFWorkbook workbook = new HSSFWorkbook();
@@ -172,7 +177,9 @@ public final class ExcelGeneratorServiceImpl extends AbstractGeneratorServiceImp
         workbook.close();
         exportXls.close();
         // 弹出目标文件夹
-        Runtime.getRuntime().exec("explorer "+ generatorConfig.getTargetFileDir());
+        //Runtime.getRuntime().exec("explorer "+ generatorConfig.getTargetFileDir());
+        Runtime.getRuntime().exec("open " + generatorConfig.getTargetFileDir());
+
     }
 
     /***
