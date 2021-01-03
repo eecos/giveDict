@@ -1,12 +1,11 @@
 doc:
-  name: saas_test
+  name: website
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.2.200:3306/${doc.name}
-    #url: jdbc:mysql://127.0.0.1:3306/${doc.name}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.100:3306/${doc.name}
     username: root
-    password: '1qaz2wsx'
+    password: 1qaz2wsx
 application:
   generator:
     #数据库类型，当前支持mysql
@@ -18,7 +17,7 @@ application:
     template-file-path: htmlTemplate2.html
     #template-file-path: wordTemplate.ftl
     #生成文件的目录
-    target-file-dir: /Users/lijiating/Desktop/RedE_DB/doc
+    target-file-dir: /Users/jerry/Desktop/
     #黑名单，支持正则表达式
     #blacklist:
     #  - '.*'
