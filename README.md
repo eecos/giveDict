@@ -37,14 +37,5 @@
 	1.创建一个新的类，继承cn.mrjerryli.db.doc.generator.service.impl.AbstractGeneratorServiceImpl
 	2.在枚举类cn.mrjerryli.db.doc.generator.enums.TargetFileType中增加一个新的枚举
 
-更新日志
-----
-	1.v1.0,完成基本架构，支持生成word文档
-	2.v1.1,优化架构，支持生成excel文档，比word文档好看点，笑
-	3.v1.2，支持生成html文档
-	4.v1.3,增加索引信息的生成
-	5.v1.3.1 增加新的html模板，优化生成文档的速度
-	6.v1.3.2 支持白名单和黑名单，优化excel模板
-
-
+---
 #### 感谢 [原始项目](https://gitee.com/shiqiyue/dbDocGenerator/)
