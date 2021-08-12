@@ -1,8 +1,7 @@
-数据库文档生成工具
-项目原始来源：https://gitee.com/shiqiyue/dbDocGenerator/
-====
-    简单配置，就能够生成数据库文档。欢迎大家提意见
+## 数据库文档生成工具
+#####  ***简单配置，就能够生成数据库文档。欢迎大家提意见***
 
+---
 使用方法  
 ----
     1.修改application.properties的数据库配置信息  
@@ -48,7 +47,4 @@
 	6.v1.3.2 支持白名单和黑名单，优化excel模板
 
 
-以下为修改部分：
-
-自定义word格式，然后替换模板文件；
-
+#### 感谢 [原始项目](https://gitee.com/shiqiyue/dbDocGenerator/)
