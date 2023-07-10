@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.mrjerryli</groupId>
-    <artifactId>db-doc-generator</artifactId>
+    <artifactId>give-dict</artifactId>
     <version>1.3.2</version>
     <packaging>jar</packaging>
 
-    <name>db-doc-generator</name>
+    <name>give-dict</name>
     <description>数据库文档生成工具</description>
 
     <parent>
@@ -50,7 +50,6 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <!--<version>${mysql-connector.version}</version>-->
         </dependency>
         <dependency>
             <groupId>org.freemarker</groupId>
