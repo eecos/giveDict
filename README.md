@@ -36,6 +36,3 @@
 ----
 	1.创建一个新的类，继承cn.mrjerryli.db.doc.generator.service.impl.AbstractGeneratorServiceImpl
 	2.在枚举类cn.mrjerryli.db.doc.generator.enums.TargetFileType中增加一个新的枚举
-
----
-#### 感谢 [原始项目](https://gitee.com/shiqiyue/dbDocGenerator/)
